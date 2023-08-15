@@ -1,17 +1,35 @@
-
 {{ define "main" }}
 <div>
-	<h1>{{ .Title }}</h1>
-	{{.Content}}
-	</div>
+  <h1>{{ .Title }}</h1>
+  {{.Content}}
+</div>
 
-	<h2>Projects</h2>
+<!-- <h2>Skills and Technologies</h2> -->
 
-	<p>coming soon</p>
+<h2>Projects</h2>
 
-	<!-- <div>
+<!-- <div>
 		<p>Exploring the Growth of Powerlifting</p>
 		<b>Tech:</b><p>Python (pandas, seaborn/matplotlib)</p>
 		<p>In this project, I use pandas to  visualize</p>
 	</div> -->
+
+<div class="portfolio-item">
+  <h3>OpenPowerlifting: Exploratory Data Analysis</h3>
+  <p>
+    In this project, I use python, pandas, and matplotlib to explore several
+    variables included in the
+    <a href="https://openpowerlifting.gitlab.io/opl-csv/bulk-csv-docs.html"
+      >OpenPowerlifting dataset</a
+    >. This includes using data transformations, aggregations, and
+    visualizations to better understand the dataset.
+  </p>
+  <div class="portfolio-item-bottom">
+    <a
+      class="repo-link"
+      href="https://github.com/bendurham441/powerlifting-analysis"
+      >GitHub Repository</a
+    >
+  </div>
+</div>
 {{end }}
