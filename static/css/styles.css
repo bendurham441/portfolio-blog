@@ -10,15 +10,23 @@ body {
 
 #container {
 	margin: 0 auto;
-	width: 450px;
+	width: 100%;
 	display:flex;
 	flex-direction: column;
 	height: 100vh;
 }
 
+@media screen and (min-width: 600px) {
+	#container {
+		max-width: 600px;
+	}
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 .nav-item {
@@ -87,4 +95,8 @@ h1, h2, h3{
 	border: 1px solid lightgray;
 	padding: 1rem;
 	border-radius: 5px;
+}
+
+img {
+	max-width: 100%;
 }
