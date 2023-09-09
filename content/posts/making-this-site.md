@@ -2,6 +2,7 @@
 title: "Making This Site"
 date: 2023-07-15T18:18:06-04:00
 tags: []
+description: 'This post describes my experience using Hugo to create this site, as someone without experience using Hugo. Additionally, I recommend some other resources that helped me create a Hugo site from scratch.'
 ---
 
 Recently, I've been more focused on data science and programming, but I chose to make this site "from scratch" to refresh my web development skills. I last used these skills when working as a React developer for ProMazo during my freshman year. But an web application framework like react isn't the right tool for this type of job. This site does not require user interaction, prompting me to use a static site generator (SSG). 

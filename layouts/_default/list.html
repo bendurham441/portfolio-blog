@@ -2,9 +2,15 @@
 
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
-<p>
-  <a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a>
-</p>
+<div class="post">
+  <div class="post-listing-header">
+    <a href="{{ .RelPermalink }}" class="post-title">
+      <h2>{{ .Title }}</h2>
+    </a>
+    {{ .Date.Format "January 2, 2006" }}
+  </div>
+  <p>{{ .Description }}</p>
+</div>
 {{ end }}
 
 {{ end }}

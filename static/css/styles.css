@@ -101,3 +101,15 @@ h1, h2, h3{
 img {
 	max-width: 100%;
 }
+
+.post-title {
+	text-decoration: none;
+}
+
+.post-listing-header {
+	text-align: center;
+}
+
+.post-header {
+	text-align: center;
+}
