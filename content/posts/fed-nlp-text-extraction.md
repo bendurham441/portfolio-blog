@@ -8,7 +8,7 @@ description: 'In my last post, I described the process to retrieve PDFs of Feder
 
 ## Introduction
 
-As I noted in my last post, the Bank for International Settlements (BIS) maintains an archive of central bank speeches for many countries, but only posts snippets of these speeches on their website. The full speeches can only be accessed as PDFs. This adds another step into the data collection process. If the speeches were already in plain text on the BIS website, I could more easily just scrape the text and store it locally, since extracting text from a structured webpage is usually straightforward, or at least more straightforward than extracting data from a PDF. But since the full speeches are only available in PDF form, I needed to create a way of extracting the text from the PDFs.
+As I noted in my last post, the Bank for International Settlements (BIS) maintains an archive of central bank speeches for many countries, but only posts snippets of these speeches on their website. The full speeches can only be accessed as PDFs. This adds another step into the data collection process. If the speeches were already in plain text on the BIS website, I could more easily just scrape the text and store it locally, since extracting text from a structured webpage is usually straightforward, or at least more straightforward than extracting data from a PDF. But since the full speeches are only available in PDF form, I needed to create a way of extracting the text from the PDFs. The code related to this post can be found in [this file](https://github.com/bendurham441/fed-nlp/blob/main/data%20collection/pdf_extract.ipynb).
 
 ## The Goal
 
